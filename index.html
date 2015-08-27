@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Smart Airfreshner</title>
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimal-ui">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+		
+$(document).ready(function(){
+   		$.ajax({
+						type: 'GET',
+						url: 'http://10.0.0.45/hi',
+						success: function(response){
+							 alert(console);
+							 console.log(response);		
+						},
+						error:function(response){
+							alert("Error in Ajax call"+ response);
+							console.log(response);
+						}
+										
+            }); 
+});
+		</script>
+	</head>
+	
+	<body>
+
+	<div class="titlebar">
+	<header>
+	<ul class="menu_bar">
+		<li class="title">Smart Airfreshner</li>
+	</ul>
+	</header>
+	</div>
+	
+ 	</body>
+	</html>
