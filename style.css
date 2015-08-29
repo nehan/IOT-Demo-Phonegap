@@ -1,0 +1,133 @@
+* {
+    font-family: "HelveticaNeue-Light",Arial,sans-serif;
+    font-size: 32px;
+  
+}
+body {
+    background: #222; 	
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(air-background.jpg) no-repeat top center; 
+	 
+}
+
+.username{
+        font-family: helveticaNeue-Light;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    /* margin-right: 57px; */
+    margin-top: 27px;
+    margin-left: 55px;
+    color: #005C41;
+    font-weight: bold;
+    top: 20px;
+}
+.txtusername{
+    font-size: 16px;
+    position: relative;
+    margin-top: 44px;
+    margin-left: 10px;
+    padding: 0px;
+    height: 34px;
+    /* top: 0px; */
+    border-radius: 8px;
+}
+.password{
+        font-family: helveticaNeue-Light;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    /* margin-top: 68px; */
+    color: #005C41;
+    font-weight: bold;
+    /* top: 32px; */
+    margin-top: 99px;
+    margin-left: -89px;
+}
+.txtpassword{
+font-size: 16px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 34px;
+    top: 47px;
+    border-radius: 8px;
+    /* margin-top: 16px; */
+    margin-left: -207px;
+}
+.titlebar{
+	position:fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	border-bottom:1px solid;
+	border-bottom-color:#6F9A03;
+	z-index: 40;
+	margin-top:0px;
+	background-color: #005C41;
+}
+
+li.title{
+	font-size: 26px;
+    padding-left: 21%;
+    padding-top: -20px;
+    font-family: "Copperplate";
+    font-weight: bold;
+    width: 45%;
+    float: left;
+    top: -13px;
+    position: relative;
+    color: white;
+}
+.main{
+	position: absolute;
+    top: 61px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-color: rgba(255, 255, 255, 0.57);
+
+}
+.search_page{
+	width: 384px;
+    height: 199px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    border-radius: 46px;
+    position: relative;
+    float: left;
+    margin-top: 85px;
+    margin-left: 88px;
+    
+}
+/*Nav*/
+
+
+.search_btn{
+      font-family: 'Helvetica Neue',sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: linear-gradient(#005C00,#5C8D5C);
+    margin-left: -199px;
+    margin-top: 12px;
+    border: none;
+    top: 96px;
+    position: relative;
+}
+
+/*css for account.html*/
+.login_page{
+		width:100%;
+		height:100%;
+		position:relative;
+		background-color:white;
+}
