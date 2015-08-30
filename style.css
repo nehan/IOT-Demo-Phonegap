@@ -82,15 +82,15 @@ margin-left: -160px;
 }
 
 li.title{
-  font-size: 17px;
+  font-size: 20px;
     padding-top: -20px;
     font-family: "Copperplate";
     font-weight: bold;
-    width: 12%;
     float: left;
     top: -13px;
     position: relative;
     color: white;
+    left: 18px;
 }
 .main{
     position: absolute;
@@ -106,7 +106,7 @@ li.title{
 .search_page{
     width: 302px;
     
-    height: 183px;
+    height: 203px;
     position: relative;
     background-color: rgb(241, 241, 241);
     border-radius: 46px;
@@ -144,4 +144,79 @@ li.title{
         height:100%;
         position:relative;
         background-color:white;
+}
+.register_now{
+    font-size: 14px;
+    position: relative;
+    top: 128px;
+    margin-left: -114px;
+}
+.register_link{
+        font-size: 15px;
+    /* margin-top: 48px; */
+    position: relative;
+    top: 128px;
+    margin-left: 4px;
+    font-style: italic;
+}
+.register p#register{
+    font-size: 16px;
+    left: 113px;
+    font-weight: bold;
+    color:black;
+}
+.register p{
+    font-size: 13px;
+    position: relative;
+    left: 6px;
+    top: 6px;
+    color: red;
+}
+.register label{
+    font-size: 15px;
+    position: relative;
+    left: 9px;
+}
+.register input{
+       width: 165px;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    
+       left: 148px;
+    border-radius: 7px;
+}
+.register_div{
+ width: 333px;
+    
+ height: 338px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    border-radius: 46px;
+    position: relative;
+    float: left;
+    
+ margin-top: 50px;
+    
+ margin-left: 11px;
+    
+}
+.register input#home_address{
+    top: 2px;
+    position: relative;
+    left: 27px;
+}
+.register input.reg_btn{
+   font-size: 14px;
+    position: relative;
+    top: 11px;
+    
+   left: 105px;
+    color: white;
+    width: 99px;
+    background: linear-gradient(#005C00,#5C8D5C);
+}
+.register span.compulsory{
+        font-size: 23px;
+    color: red;
 }
