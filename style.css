@@ -92,6 +92,23 @@ li.title{
     color: white;
     left: 18px;
 }
+li.logOut{
+    list-style-type: none;
+}
+li.logOut a{
+   font-size: 20px;
+    padding-top: -20px;
+    font-family: "Copperplate";
+    font-weight: bold;
+    padding-left: 20px;
+    float: left;
+    top: -13px;
+    position: relative;
+    color: rgb(16, 239, 241);
+    left: 18px;
+    font-style: italic;
+    font-weight: bolder;
+}
 .main{
     position: absolute;
     top: 61px;
@@ -185,6 +202,7 @@ li.title{
     
        left: 148px;
     border-radius: 7px;
+    font-size: 12px;
 }
 .register_div{
  width: 333px;
@@ -219,4 +237,24 @@ li.title{
 .register span.compulsory{
         font-size: 23px;
     color: red;
+}
+.start_btn{
+      width: 75px;
+    /* margin-top: 85px; */
+    margin-left: 120px;
+    /* float: left; */
+    margin-top: 19px;
+    /* margin-left: -360px; */
+    position: relative;
+    float: left;
+}
+.start_lbl{
+       position: relative;
+    top: 127px;
+    margin-left: -124px;
+    font-size: 16px;
+    color: #142D14;
+    /* margin-top: 24px; */
+    padding-left: -12px;
+    font-weight: bold;
 }
